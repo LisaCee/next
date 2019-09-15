@@ -210,6 +210,185 @@ function _objectSpread(target) {
 
 /***/ }),
 
+/***/ "./pages/Contact.js":
+/*!**************************!*\
+  !*** ./pages/Contact.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Skills; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Container */ "@material-ui/core/Container");
+/* harmony import */ var _material_ui_core_Container__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/TextField */ "@material-ui/core/TextField");
+/* harmony import */ var _material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "/home/lisa/Documents/Coding/Projects/PORTFOLIOS/next/pages/Contact.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+ // import '../src/styles/contact.css';
+
+const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(theme => ({
+  container: {
+    display: 'flex',
+    flexWrap: 'wrap'
+  },
+  textField: {
+    marginLeft: theme.spacing(1),
+    marginRight: theme.spacing(1)
+  },
+  dense: {
+    marginTop: theme.spacing(2)
+  },
+  menu: {
+    width: 200
+  }
+}));
+function Skills() {
+  const classes = useStyles();
+  return __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("div", {
+    id: "contactForm",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    variant: "h5",
+    id: "contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Contact Me"), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    variant: "body1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Whether you wish to work with me or just want to chat about Prince or programming, I'd love to hear from you."), __jsx("form", {
+    action: "https://formspree.io/lisaceedesign@gmail.com",
+    method: "POST",
+    className: classes.container,
+    autoComplete: "off",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx(_material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    id: "name",
+    label: "Name",
+    name: "name",
+    margin: "normal",
+    variant: "outlined",
+    fullWidth: true,
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }), __jsx("input", {
+    type: "hidden",
+    name: "_next",
+    value: "http://www.lisaceedesign.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }), __jsx(_material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    id: "email",
+    label: "Email",
+    type: "email",
+    name: "email",
+    autoComplete: "email",
+    margin: "normal",
+    variant: "outlined",
+    fullWidth: true,
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }), __jsx(_material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    id: "subject",
+    label: "Subject",
+    type: "subject",
+    name: "subject",
+    margin: "normal",
+    variant: "outlined",
+    fullWidth: true,
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }), __jsx(_material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    id: "outlined-multiline-static",
+    label: "Message",
+    multiline: true,
+    rows: "4",
+    margin: "normal",
+    variant: "outlined",
+    fullWidth: true,
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }), __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    type: "submit",
+    className: "primary submit",
+    variant: "contained",
+    id: "submit",
+    color: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "Submit"), __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    type: "reset",
+    value: "Reset Form",
+    color: "secondary",
+    variant: "contained",
+    id: "cancel",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "Reset"))));
+}
+
+/***/ }),
+
 /***/ "./pages/Intro.js":
 /*!************************!*\
   !*** ./pages/Intro.js ***!
@@ -219,7 +398,6 @@ function _objectSpread(target) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Intro; });
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
@@ -253,7 +431,7 @@ const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["
 
 function Logo() {
   return __jsx("img", {
-    src: "/static/LisaCee_Logo_blue.jpg",
+    src: "/static/sm.jpg",
     alt: "logo",
     id: "logo",
     __source: {
@@ -267,15 +445,16 @@ function Logo() {
 function Intro() {
   const classes = useStyles();
   return __jsx("div", {
+    className: "jsx-3426548941",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }, __jsx(_MyLayout__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, __jsx(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -283,7 +462,7 @@ function Intro() {
     id: "intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -293,7 +472,7 @@ function Intro() {
     alignContent: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 27
     },
     __self: this
   }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -303,13 +482,14 @@ function Intro() {
     md: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 28
     },
     __self: this
   }, __jsx(Logo, {
+    id: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
   })), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -319,7 +499,7 @@ function Intro() {
     md: 9,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 31
     },
     __self: this
   }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -329,7 +509,7 @@ function Intro() {
     id: "headline",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 32
     },
     __self: this
   }, "Lisa Canini"), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -338,7 +518,7 @@ function Intro() {
     id: "introSkills",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     },
     __self: this
   }, "Problem Solver | Empathetic | Active Learner", ' '), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -347,21 +527,23 @@ function Intro() {
     id: "body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }, "Passionate full stack developer, creating websites that remove barriers to access and make information available to everyone.")))), __jsx(_material_ui_core_Divider__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: "dividerMargin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
-  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "784661121",
+  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3426548941",
     __self: this
-  }, "#logo.jsx-784661121{height:20%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2xpc2EvRG9jdW1lbnRzL0NvZGluZy9Qcm9qZWN0cy9QT1JURk9MSU9TL25leHQvcGFnZXMvSW50cm8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMkNrQixBQUdvQixXQUNiIiwiZmlsZSI6Ii9ob21lL2xpc2EvRG9jdW1lbnRzL0NvZGluZy9Qcm9qZWN0cy9QT1JURk9MSU9TL25leHQvcGFnZXMvSW50cm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgbWFrZVN0eWxlcyB9IGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL3N0eWxlcyc7XG5pbXBvcnQgUGFwZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvUGFwZXInO1xuaW1wb3J0IERpdmlkZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvRGl2aWRlcic7XG5pbXBvcnQgR3JpZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9HcmlkJztcbmltcG9ydCBUeXBvZ3JhcGh5IGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1R5cG9ncmFwaHknO1xuaW1wb3J0IExheW91dCBmcm9tICcuL015TGF5b3V0JztcblxuY29uc3QgdXNlU3R5bGVzID0gbWFrZVN0eWxlcyh0aGVtZSA9PiAoe1xuICByb290OiB7XG4gICAgcGFkZGluZzogdGhlbWUuc3BhY2luZygzLCAyKVxuICB9XG59KSk7XG5cbmZ1bmN0aW9uIExvZ28oKSB7XG4gIHJldHVybiAoPGltZyBzcmM9XCIvc3RhdGljL0xpc2FDZWVfTG9nb19ibHVlLmpwZ1wiIGFsdD1cImxvZ29cIiBpZD1cImxvZ29cIi8+KTtcbn1cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEludHJvKCkge1xuICBjb25zdCBjbGFzc2VzID0gdXNlU3R5bGVzKCk7XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPExheW91dD5cbiAgICAgIDxQYXBlciBjbGFzc05hbWU9e2NsYXNzZXMucm9vdH0gaWQ9J2ludHJvJz5cbiAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezN9IGp1c3RpZnk9J2NlbnRlcicgYWxpZ25Db250ZW50PSdjZW50ZXInPlxuICAgICAgICAgIDxHcmlkIGl0ZW0geHM9ezEyfSBzbT17NH0gbWQ9ezN9PlxuICAgICAgICAgICAgPExvZ28vPlxuICAgICAgICAgIDwvR3JpZD5cbiAgICAgICAgICA8R3JpZCBpdGVtIHhzPXsxMn0gc209ezh9IG1kPXs5fT5cbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5IGNvbXBvbmVudD0naDYnIHZhcmlhbnQ9J2g0JyBhbGlnbj0nbGVmdCcgaWQ9J2hlYWRsaW5lJz5cbiAgICAgICAgICAgICAgTGlzYSBDYW5pbmlcbiAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5IHZhcmlhbnQ9J2g2JyBhbGlnbj0nbGVmdCcgaWQ9J2ludHJvU2tpbGxzJz5cbiAgICAgICAgICAgICAgUHJvYmxlbSBTb2x2ZXIgfCBFbXBhdGhldGljIHwgQWN0aXZlIExlYXJuZXJ7JyAnfVxuICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgICAgICAgICAgPFR5cG9ncmFwaHkgY29tcG9uZW50PSdwJyBhbGlnbj0nbGVmdCcgaWQ9J2JvZHknPlxuICAgICAgICAgICAgICBQYXNzaW9uYXRlIGZ1bGwgc3RhY2sgZGV2ZWxvcGVyLCBjcmVhdGluZyB3ZWJzaXRlcyB0aGF0IHJlbW92ZVxuICAgICAgICAgICAgICBiYXJyaWVycyB0byBhY2Nlc3MgYW5kIG1ha2UgaW5mb3JtYXRpb24gYXZhaWxhYmxlIHRvIGV2ZXJ5b25lLlxuICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgICAgICAgIDwvR3JpZD5cbiAgICAgICAgPC9HcmlkPlxuICAgICAgPC9QYXBlcj5cbiAgICAgIDxEaXZpZGVyIGNsYXNzTmFtZT0nZGl2aWRlck1hcmdpbicgLz5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICNsb2dvIHtcbiAgICAgICAgaGVpZ2h0OiAyMCU7XG4gICAgICB9YH08L3N0eWxlPlxuICA8L0xheW91dD5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/home/lisa/Documents/Coding/Projects/PORTFOLIOS/next/pages/Intro.js */")));
+  }, "#intro.jsx-3426548941{height:auto;margin-bottom:12px;background:#ffffff;max-width:345px;}#intro.jsx-3426548941 p.jsx-3426548941{line-height:1.5rem;margin-top:3%;}#logo.jsx-3426548941{width:40%;margin-left:29%;}#headline.jsx-3426548941{margin-bottom:5%;color:#007388;color:red !important;}#introSkills.jsx-3426548941{color:#007388;font-size:1rem;}.dividerMargin.jsx-3426548941{margin:35px 0 !important;}@media (min-width:600px){#intro.jsx-3426548941{max-width:96%;}#headline.jsx-3426548941{margin-top:2%;}img#logo.jsx-3426548941{width:90%;margin-left:8%;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}}@media (min-width:768px){#intro.jsx-3426548941{max-width:99%;}}@media (min-width:992px){#intro.jsx-3426548941{max-width:100%;}img#logo.jsx-3426548941{width:60%;max-width:250px;margin-left:20%;margin-top:5%;}#headline.jsx-3426548941{margin-bottom:2%;}}@media (min-width:1200px){#intro.jsx-3426548941{margin:3% auto;max-width:1100px;}img#logo.jsx-3426548941{width:70%;max-width:250px;margin-left:30%;margin-top:2%;}#headline.jsx-3426548941{margin-top:1rem;margin-bottom:2%;font-size:2rem;}#body.jsx-3426548941{line-height:2.5rem;font-size:1.25rem;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2xpc2EvRG9jdW1lbnRzL0NvZGluZy9Qcm9qZWN0cy9QT1JURk9MSU9TL25leHQvcGFnZXMvSW50cm8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBK0NjLEFBR2lCLEFBT08sQUFLVCxBQUtPLEFBTUgsQUFLVyxBQUtULEFBR0EsQUFHSixBQVVJLEFBTUMsQUFHTCxBQU1PLEFBTUYsQUFJTCxBQU1NLEFBS0csVUF4RUwsQUEyQkMsQUFtQkMsQUFnQkEsRUExRUMsRUF1QkosQUFVZixBQUdBLEFBYUEsQ0FNQSxBQWVtQixDQVVBLENBL0RMLEFBK0NkLEVBekRjLEFBOEVNLE1BekR0QixBQVk2QixDQTNCN0IsQUE4Q29CLEFBZ0JBLEdBbkRwQixFQXZCcUIsQUFpQkUsQ0FxRHJCLENBL0RGLEFBeUVtQixJQUtqQixLQTFCZ0IsQUFnQkEsTUFNaEIsRUFoRmdCLEFBdUNZLEVBdEI5QixJQTBDRSxBQWdCQSxVQTFFRixNQXVDK0IsNkZBQzdCIiwiZmlsZSI6Ii9ob21lL2xpc2EvRG9jdW1lbnRzL0NvZGluZy9Qcm9qZWN0cy9QT1JURk9MSU9TL25leHQvcGFnZXMvSW50cm8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgbWFrZVN0eWxlcyB9IGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL3N0eWxlcyc7XG5pbXBvcnQgUGFwZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvUGFwZXInO1xuaW1wb3J0IERpdmlkZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvRGl2aWRlcic7XG5pbXBvcnQgR3JpZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9HcmlkJztcbmltcG9ydCBUeXBvZ3JhcGh5IGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1R5cG9ncmFwaHknO1xuaW1wb3J0IExheW91dCBmcm9tICcuL015TGF5b3V0JztcblxuY29uc3QgdXNlU3R5bGVzID0gbWFrZVN0eWxlcyh0aGVtZSA9PiAoe1xuICByb290OiB7XG4gICAgcGFkZGluZzogdGhlbWUuc3BhY2luZygzLCAyKVxuICB9XG59KSk7XG5cbmZ1bmN0aW9uIExvZ28oKSB7XG4gIHJldHVybiAoPGltZyBzcmM9XCIvc3RhdGljL3NtLmpwZ1wiIGFsdD1cImxvZ29cIiBpZD1cImxvZ29cIi8+KTtcbn1cblxuZnVuY3Rpb24gSW50cm8oKSB7XG4gIGNvbnN0IGNsYXNzZXMgPSB1c2VTdHlsZXMoKTtcblxuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8TGF5b3V0PlxuICAgICAgPFBhcGVyIGNsYXNzTmFtZT17Y2xhc3Nlcy5yb290fSBpZD0naW50cm8nPlxuXG4gICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXszfSBqdXN0aWZ5PSdjZW50ZXInIGFsaWduQ29udGVudD0nY2VudGVyJz5cbiAgICAgICAgICA8R3JpZCBpdGVtIHhzPXsxMn0gc209ezR9IG1kPXszfT5cbiAgICAgICAgICAgIDxMb2dvIGlkPVwibG9nb1wiLz5cbiAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgICAgPEdyaWQgaXRlbSB4cz17MTJ9IHNtPXs4fSBtZD17OX0+XG4gICAgICAgICAgICA8VHlwb2dyYXBoeSBjb21wb25lbnQ9J2g2JyB2YXJpYW50PSdoNCcgYWxpZ249J2xlZnQnIGlkPSdoZWFkbGluZSc+XG4gICAgICAgICAgICAgIExpc2EgQ2FuaW5pXG4gICAgICAgICAgICA8L1R5cG9ncmFwaHk+XG4gICAgICAgICAgICA8VHlwb2dyYXBoeSB2YXJpYW50PSdoNicgYWxpZ249J2xlZnQnIGlkPSdpbnRyb1NraWxscyc+XG4gICAgICAgICAgICAgIFByb2JsZW0gU29sdmVyIHwgRW1wYXRoZXRpYyB8IEFjdGl2ZSBMZWFybmVyeycgJ31cbiAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICAgIDxUeXBvZ3JhcGh5IGNvbXBvbmVudD0ncCcgYWxpZ249J2xlZnQnIGlkPSdib2R5Jz5cbiAgICAgICAgICAgICAgUGFzc2lvbmF0ZSBmdWxsIHN0YWNrIGRldmVsb3BlciwgY3JlYXRpbmcgd2Vic2l0ZXMgdGhhdCByZW1vdmVcbiAgICAgICAgICAgICAgYmFycmllcnMgdG8gYWNjZXNzIGFuZCBtYWtlIGluZm9ybWF0aW9uIGF2YWlsYWJsZSB0byBldmVyeW9uZS5cbiAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgIDwvR3JpZD5cbiAgICAgIDwvUGFwZXI+XG4gICAgICA8RGl2aWRlciBjbGFzc05hbWU9J2RpdmlkZXJNYXJnaW4nIC8+XG4gICAgICBcbiAgPC9MYXlvdXQ+XG4gIDxzdHlsZSBqc3g+e2BcbiAgI2ludHJvIHtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgbWFyZ2luLWJvdHRvbTogMTJweDtcbiAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xuICAgIG1heC13aWR0aDogMzQ1cHg7XG4gIH1cbiAgXG4gICNpbnRybyBwIHtcbiAgICBsaW5lLWhlaWdodDogMS41cmVtO1xuICAgIG1hcmdpbi10b3A6IDMlO1xuICB9XG4gIFxuICAjbG9nbyB7XG4gICAgd2lkdGg6IDQwJTtcbiAgICBtYXJnaW4tbGVmdDogMjklO1xuICB9XG4gIFxuICAjaGVhZGxpbmUge1xuICAgIG1hcmdpbi1ib3R0b206IDUlO1xuICAgIGNvbG9yOiAjMDA3Mzg4O1xuICAgIGNvbG9yOiByZWQgIWltcG9ydGFudDtcbiAgfVxuICBcbiAgI2ludHJvU2tpbGxzIHtcbiAgICBjb2xvcjogIzAwNzM4ODtcbiAgICBmb250LXNpemU6IDFyZW07XG4gIH1cbiAgXG4gIC5kaXZpZGVyTWFyZ2luIHtcbiAgICBtYXJnaW46IDM1cHggMCAhaW1wb3J0YW50O1xuICB9XG4gIFxuICBAbWVkaWEgKG1pbi13aWR0aDogNjAwcHgpIHtcbiAgICAjaW50cm8ge1xuICAgICAgbWF4LXdpZHRoOiA5NiU7XG4gICAgfVxuICAgICNoZWFkbGluZSB7XG4gICAgICBtYXJnaW4tdG9wOiAyJTtcbiAgICB9XG4gICAgaW1nI2xvZ28ge1xuICAgICAgd2lkdGg6IDkwJTtcbiAgICAgIG1hcmdpbi1sZWZ0OiA4JTtcbiAgICAgIC13ZWJraXQtYm94LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgLW1zLWZsZXgtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICB9XG4gIH1cbiAgXG4gIEBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAgICNpbnRybyB7XG4gICAgICBtYXgtd2lkdGg6IDk5JTtcbiAgICB9XG4gIH1cbiAgXG4gIEBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkge1xuICAgICNpbnRybyB7XG4gICAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgfVxuICAgIGltZyNsb2dvIHtcbiAgICAgIHdpZHRoOiA2MCU7XG4gICAgICBtYXgtd2lkdGg6IDI1MHB4O1xuICAgICAgbWFyZ2luLWxlZnQ6IDIwJTtcbiAgICAgIG1hcmdpbi10b3A6IDUlO1xuICAgIH1cbiAgICAjaGVhZGxpbmUge1xuICAgICAgbWFyZ2luLWJvdHRvbTogMiU7XG4gICAgfVxuICB9XG4gIFxuICBAbWVkaWEgKG1pbi13aWR0aDogMTIwMHB4KSB7XG4gICAgI2ludHJvIHtcbiAgICAgIG1hcmdpbjogMyUgYXV0bztcbiAgICAgIG1heC13aWR0aDogMTEwMHB4O1xuICAgIH1cbiAgICBpbWcjbG9nbyB7XG4gICAgICB3aWR0aDogNzAlO1xuICAgICAgbWF4LXdpZHRoOiAyNTBweDtcbiAgICAgIG1hcmdpbi1sZWZ0OiAzMCU7XG4gICAgICBtYXJnaW4tdG9wOiAyJTtcbiAgICB9XG4gICAgI2hlYWRsaW5lIHtcbiAgICAgIG1hcmdpbi10b3A6IDFyZW07XG4gICAgICBtYXJnaW4tYm90dG9tOiAyJTtcbiAgICAgIGZvbnQtc2l6ZTogMnJlbTtcbiAgICB9XG4gICAgI2JvZHkge1xuICAgICAgbGluZS1oZWlnaHQ6IDIuNXJlbTtcbiAgICAgIGZvbnQtc2l6ZTogMS4yNXJlbTtcbiAgICB9XG4gIH1cbiAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBJbnRybzsiXX0= */\n/*@ sourceURL=/home/lisa/Documents/Coding/Projects/PORTFOLIOS/next/pages/Intro.js */"));
 }
+
+/* harmony default export */ __webpack_exports__["default"] = (Intro);
 
 /***/ }),
 
@@ -382,22 +564,20 @@ var _jsxFileName = "/home/lisa/Documents/Coding/Projects/PORTFOLIOS/next/pages/M
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px solid #DDD'
+  padding: 10
 };
 
 const Layout = props => __jsx("div", {
   style: layoutStyle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 8
   },
   __self: undefined
 }, __jsx(_NavDrawer__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 9
   },
   __self: undefined
 }), props.children);
@@ -485,7 +665,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
- // import '../src/styles/navDrawer.css';
 
 const drawerWidth = 240;
 const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["makeStyles"])(theme => ({
@@ -560,13 +739,13 @@ function PersistentDrawerRight() {
     className: classes.root,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 96
     },
     __self: this
   }, __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 97
     },
     __self: this
   }), __jsx(_material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -576,13 +755,13 @@ function PersistentDrawerRight() {
     }),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 98
     },
     __self: this
   }, __jsx(_material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 104
     },
     __self: this
   }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10___default.a, {
@@ -592,21 +771,21 @@ function PersistentDrawerRight() {
     id: "name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 105
     },
     __self: this
   }, "Lisa Canini"), __jsx(_material_ui_core_Hidden__WEBPACK_IMPORTED_MODULE_4___default.a, {
     xsDown: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 108
     },
     __self: this
   }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10___default.a, {
     variant: "body1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 109
     },
     __self: this
   }, "Full Stack Web Developer")), __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_12___default.a, {
@@ -618,14 +797,14 @@ function PersistentDrawerRight() {
     id: "navButton",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 111
     },
     __self: this
   }, __jsx(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_13___default.a, {
     id: "hamburger",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 119
     },
     __self: this
   })))), __jsx("main", {
@@ -634,14 +813,14 @@ function PersistentDrawerRight() {
     }),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 123
     },
     __self: this
   }, __jsx("div", {
     className: classes.drawerHeader,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 128
     },
     __self: this
   })), __jsx(_material_ui_core_Drawer__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -654,178 +833,178 @@ function PersistentDrawerRight() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 130
     },
     __self: this
   }, __jsx("div", {
     className: classes.drawerHeader,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 139
     },
     __self: this
   }, __jsx(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_12___default.a, {
     onClick: handleDrawerClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 140
     },
     __self: this
   }, theme.direction === 'rtl' ? __jsx(_material_ui_icons_ChevronLeft__WEBPACK_IMPORTED_MODULE_14___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 142
     },
     __self: this
   }) : __jsx(_material_ui_icons_ChevronRight__WEBPACK_IMPORTED_MODULE_15___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 144
     },
     __self: this
   }))), __jsx(_material_ui_core_Divider__WEBPACK_IMPORTED_MODULE_11___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 148
     },
     __self: this
   }), __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_9___default.a, {
     className: "navList",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 149
     },
     __self: this
   }, __jsx("a", {
     href: "#intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 150
     },
     __self: this
   }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_16___default.a, {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 151
     },
     __self: this
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_17___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 152
     },
     __self: this
   }, __jsx(_material_ui_icons_Person__WEBPACK_IMPORTED_MODULE_19___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 153
     },
     __self: this
   })), __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_18___default.a, {
     primary: "About",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 155
     },
     __self: this
   }))), __jsx("a", {
     href: "#gallery",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 158
     },
     __self: this
   }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_16___default.a, {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 159
     },
     __self: this
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_17___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 160
     },
     __self: this
   }, __jsx(_material_ui_icons_PhotoLibrary__WEBPACK_IMPORTED_MODULE_22___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 161
     },
     __self: this
   })), __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_18___default.a, {
     primary: "Gallery",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 163
     },
     __self: this
   }))), __jsx("a", {
     href: "#skills",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 166
     },
     __self: this
   }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_16___default.a, {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 167
     },
     __self: this
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_17___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 168
     },
     __self: this
   }, __jsx(_material_ui_icons_ImportantDevices__WEBPACK_IMPORTED_MODULE_21___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 169
     },
     __self: this
   })), __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_18___default.a, {
     primary: "Skills",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 171
     },
     __self: this
   }))), __jsx("a", {
     href: "#contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 174
     },
     __self: this
   }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_16___default.a, {
     button: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 175
     },
     __self: this
   }, __jsx(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_17___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 176
     },
     __self: this
   }, __jsx(_material_ui_icons_Mail__WEBPACK_IMPORTED_MODULE_20___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 177
     },
     __self: this
   })), __jsx(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_18___default.a, {
     primary: "Contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 179
     },
     __self: this
   }))))));
@@ -846,28 +1025,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MyLayout */ "./pages/MyLayout.js");
 /* harmony import */ var _Intro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Intro */ "./pages/Intro.js");
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Contact */ "./pages/Contact.js");
 var _jsxFileName = "/home/lisa/Documents/Coding/Projects/PORTFOLIOS/next/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Index = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 5
-  },
-  __self: undefined
-}, __jsx(_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, __jsx(_Intro__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx(_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
+  },
+  __self: undefined
+}, __jsx(_Intro__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}), __jsx(_Contact__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
   },
   __self: undefined
 })));
@@ -896,6 +1083,28 @@ module.exports = __webpack_require__(/*! /home/lisa/Documents/Coding/Projects/PO
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/AppBar");
+
+/***/ }),
+
+/***/ "@material-ui/core/Button":
+/*!*******************************************!*\
+  !*** external "@material-ui/core/Button" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Button");
+
+/***/ }),
+
+/***/ "@material-ui/core/Container":
+/*!**********************************************!*\
+  !*** external "@material-ui/core/Container" ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Container");
 
 /***/ }),
 
@@ -1017,6 +1226,17 @@ module.exports = require("@material-ui/core/ListItemText");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Paper");
+
+/***/ }),
+
+/***/ "@material-ui/core/TextField":
+/*!**********************************************!*\
+  !*** external "@material-ui/core/TextField" ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/TextField");
 
 /***/ }),
 

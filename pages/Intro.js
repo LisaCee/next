@@ -13,18 +13,20 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function Logo() {
-  return (<img src="/static/LisaCee_Logo_blue.jpg" alt="logo" id="logo"/>);
+  return (<img src="/static/sm.jpg" alt="logo" id="logo"/>);
 }
-export default function Intro() {
+
+function Intro() {
   const classes = useStyles();
 
   return (
     <div>
       <Layout>
       <Paper className={classes.root} id='intro'>
+
         <Grid container spacing={3} justify='center' alignContent='center'>
           <Grid item xs={12} sm={4} md={3}>
-            <Logo/>
+            <Logo id="logo"/>
           </Grid>
           <Grid item xs={12} sm={8} md={9}>
             <Typography component='h6' variant='h4' align='left' id='headline'>
@@ -41,11 +43,102 @@ export default function Intro() {
         </Grid>
       </Paper>
       <Divider className='dividerMargin' />
-      <style jsx>{`
-      #logo {
-        height: 20%;
-      }`}</style>
+      
   </Layout>
+  <style jsx>{`
+  #intro {
+    height: auto;
+    margin-bottom: 12px;
+    background: #ffffff;
+    max-width: 345px;
+  }
+  
+  #intro p {
+    line-height: 1.5rem;
+    margin-top: 3%;
+  }
+  
+  #logo {
+    width: 40%;
+    margin-left: 29%;
+  }
+  
+  #headline {
+    margin-bottom: 5%;
+    color: #007388;
+    color: red !important;
+  }
+  
+  #introSkills {
+    color: #007388;
+    font-size: 1rem;
+  }
+  
+  .dividerMargin {
+    margin: 35px 0 !important;
+  }
+  
+  @media (min-width: 600px) {
+    #intro {
+      max-width: 96%;
+    }
+    #headline {
+      margin-top: 2%;
+    }
+    img#logo {
+      width: 90%;
+      margin-left: 8%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #intro {
+      max-width: 99%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #intro {
+      max-width: 100%;
+    }
+    img#logo {
+      width: 60%;
+      max-width: 250px;
+      margin-left: 20%;
+      margin-top: 5%;
+    }
+    #headline {
+      margin-bottom: 2%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #intro {
+      margin: 3% auto;
+      max-width: 1100px;
+    }
+    img#logo {
+      width: 70%;
+      max-width: 250px;
+      margin-left: 30%;
+      margin-top: 2%;
+    }
+    #headline {
+      margin-top: 1rem;
+      margin-bottom: 2%;
+      font-size: 2rem;
+    }
+    #body {
+      line-height: 2.5rem;
+      font-size: 1.25rem;
+    }
+  }
+  `}</style>
     </div>
   );
 }
+
+export default Intro;

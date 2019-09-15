@@ -20,7 +20,6 @@ import PersonIcon from '@material-ui/icons/Person';
 import MailIcon from '@material-ui/icons/Mail';
 import ImportantDevices from '@material-ui/icons/ImportantDevices';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
-// import '../src/styles/navDrawer.css';
 
 const drawerWidth = 240;
 

@@ -1,9 +1,7 @@
 import NavDrawer from './NavDrawer';
 
 const layoutStyle = {
-    margin: 20,
-    padding: 20,
-    border: '1px solid #DDD'
+   padding: 10
   };
   
   const Layout = props => (
