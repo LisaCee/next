@@ -19,8 +19,11 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-function movieTMImg() {
-    return (<img src="/static/movieTimeMachine.gif" alt="movieTM"/>)
+const movieImgStyle = {
+  height: '240px'
+}
+function Movie() {
+    return (<img src="/static/movie-time-machine.jpg" alt="movieTM" id="movieIMG" style={movieImgStyle}/>)
 }
 
 
@@ -33,9 +36,10 @@ export default function MovieTM() {
 
       <CardMedia
         className={classes.media}
-        image={movieTMImg}
         title='Movie Time Machine'
-      />
+      >
+      <Movie className={classes.media}/>
+      </CardMedia>
 
       <CardContent>
         <Typography color='textSecondary' component='p'>
@@ -61,6 +65,54 @@ export default function MovieTM() {
           </a>
         </Button>
       </CardActions>
+      <style jsx>{`
+.MuiPaper-root {
+        margin: 0 auto;
+        padding: 1%;
+        height: 525px;
+      }
+      
+      .MuiCardHeader-title {
+        color: #007388;
+        margin-left: -15px !important;
+        font-family: 'Raleway', sans-serif;
+      }
+      
+      div.details {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 3%;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        max-width: 300px;
+        height: 1.5rem;
+      }
+      
+      div.details .fab,
+      div.details .fas {
+        color: #17a2b8;
+        font-size: 1.5rem;
+      }
+      
+      button {
+        margin-bottom: 1%;
+        background-color: rgba(0, 0, 0, 0.08) !important;
+      }
+      
+      button span.MuiButton-label a {
+        color: #007388 !important;
+      }
+      
+      .MuiButton-root:hover {
+        background-color: #007388 !important;
+      }
+      
+      .MuiButton-root:hover .MuiButton-label a {
+        color: #ffffff !important;
+        text-decoration: none;
+      }`}</style>
     </Card>
   );
 }
